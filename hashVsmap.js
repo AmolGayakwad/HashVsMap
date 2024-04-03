@@ -21,6 +21,14 @@ function testHashtable(data) {
     });
     console.timeEnd('Insertion Time');
 
+
+    console.time('Deletion Time');
+
+    Object.keys(hashtable).forEach(patientID => {
+        delete hashtable[patientID];
+    });
+    console.timeEnd('Deletion Time');
+
 }
 
 function testMap(data) {
@@ -31,6 +39,14 @@ function testMap(data) {
         map.set(patientID, attributes);
     });
     console.timeEnd('Insertion Time');
+
+
+    console.time('Deletion Time');
+
+    data.forEach(({ patientID }) => {
+        map.delete(patientID);
+    });
+    console.timeEnd('Deletion Time');
 
 }
 
