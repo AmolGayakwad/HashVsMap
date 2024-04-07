@@ -26,24 +26,24 @@ We execute the tests using a large dataset (1 million and 5 million) and log the
 
 a) Hashtable:
 
-Insertion Time: 1366.724ms
-Deletion Time: 563.385ms
+- Insertion Time: 1366.724ms
+- Deletion Time: 563.385ms
 
 b) Map:
 
-Insertion Time: 1150.958ms
-Deletion Time: 308.731ms
+- Insertion Time: 1150.958ms
+- Deletion Time: 308.731ms
 
 2. **For 5 million rows data**:
 
 a) Hashtable:
 
- Insertion Time: 8966.886ms
- Deletion Time: 2910.710ms
+ - Insertion Time: 8966.886ms
+ - Deletion Time: 2910.710ms
 
 b) Map:
- Insertion Time: 6675.251ms
- Deletion Time: 2265.787ms
+ - Insertion Time: 6675.251ms
+ - Deletion Time: 2265.787ms
 
 **Conclusion**:
 
