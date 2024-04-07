@@ -20,7 +20,7 @@ Our goal is to compare their performance in terms of insertion and deletion oper
 - Similarly, we measure the time taken for insertion and deletion operations using a Map data structure. This involves iterating through the provided data, inserting each entry into the Map, and measuring the time taken for deletion of all entries.
 
 **Execution and Results**: 
-We execute the tests using a large dataset (1 million and 5 million) and log the time taken for insertion and deletion operations for both Hashtable and Map data structures. This allows us to compare their performance characteristics and draw insights.
+We execute the tests using a large dataset (1 million and 5 million) and log the time taken for insertion and deletion operations for both Hashtable and Map data structures. Below are the results,
 
 1. **For 1 million rows data**:
 
